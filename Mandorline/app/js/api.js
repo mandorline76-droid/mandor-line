@@ -1,7 +1,8 @@
 /* api.js - Fetch wrapper untuk MandorLine backend */
 
-const API_BASE = 'http://127.0.0.1:3001/api';
-const API_URL = 'http://127.0.0.1:3001'; // Base URL untuk file statis /uploads
+const SERVER_IP = '127.0.0.1'; // Ganti ke IP Laptop Anda (contoh: 192.168.1.5) agar APK bisa konek
+const API_BASE = `http://${SERVER_IP}:3001/api`;
+const API_URL = `http://${SERVER_IP}:3001`;
 
 async function apiFetch(path, options = {}) {
     const token = sessionStorage.getItem('ml_user');
