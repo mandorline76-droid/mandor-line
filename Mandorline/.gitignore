@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Backend / Database
+backend/mandorline.db
+backend/mandorline.db-journal
+backend/mandorline.db-shm
+backend/mandorline.db-wal
+*.db
+*.sqlite
+
+# Security
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+
+# Local testing / temp
+tmp/
+scratch/
+temuan_debug.json
+app/uploads/*.jpg
+app/uploads/*.png
+app/uploads/*.jpeg

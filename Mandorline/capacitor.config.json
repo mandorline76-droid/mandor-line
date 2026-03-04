@@ -1,0 +1,6 @@
+{
+    "appId": "com.mandorline.app",
+    "appName": "MandorLine",
+    "webDir": "app",
+    "bundledWebRuntime": false
+}
